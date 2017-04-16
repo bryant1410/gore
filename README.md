@@ -1,8 +1,8 @@
-#gore
+# gore
 
 `gore` is a command-line evaluator for golang code -- a REPL without a loop, if you will. It is a replacement for the [go playground](http://play.golang.org), while making it much easier to interactively try out bits of code: `gore` automatically supplies boiler-plate code such as `import` and `package` declarations and a `main` function wrapper. Also, since it runs on your own computer, no code is rejected on security grounds (unlike go playground's safe sandbox mode).
 
-#Usage
+# Usage
 
 (note: In the examples below, $ is the shell prompt, and the output of the snippet follows "----------------"
 #### Code snippet in command line: gore evaluates its first argument
